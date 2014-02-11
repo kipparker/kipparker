@@ -1,17 +1,31 @@
 {
   "name": "html",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "My web site. Just the one page. That's about it.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Kip Parker",
   "license": "BSD-2-Clause",
-  "devDependencies": {
-    "grunt-devserver": "~0.5.0",
-    "grunt": "~0.4.2",
-    "grunt-contrib-less": "~0.5.0",
-    "grunt-contrib-watch": "~0.4.0"
+  "dependencies": {
+    "gulp-browserify": "~0.4.4",
+    "gulp-livereload": "~1.1.1",
+    "gulp-concat": "~2.1.7",
+    "inherits": "~2.0.1",
+    "less": "~1.6.0",
+    "lru-cache": "~2.5.0",
+    "sigmund": "~1.0.0",
+    "tiny-lr": "~0.0.5",
+    "gulp": "~3.5.2",
+    "gulp-watch": "~0.5.0",
+    "gulp-less": "~1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kipparker/kipparker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kipparker/kipparker/issues"
   }
 }
